@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/debt.dart';
 
 class AiService {
-  static const String _apiKey = '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'; // Replace with your GROQ API key
+  static const String _apiKey = ''; // Replace with your GROQ API key
   static const String _url = 'https://api.groq.com/openai/v1/chat/completions';
 
   static Future<List<String>> fetchAiTips(List<Debt> debts) async {
