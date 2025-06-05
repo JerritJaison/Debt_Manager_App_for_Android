@@ -24,8 +24,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
   String? error;
 
   // Put your Cloudinary info here:
-  final String cloudName = 'dm1mga4f9';
-  final String uploadPreset = 'image_upload';
+  final String cloudName = 'your cloudname';
+  final String uploadPreset = 'your preset';
 
   @override
   void initState() {
