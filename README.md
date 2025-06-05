@@ -41,23 +41,26 @@ A futuristic and intelligent Flutter app to help users manage their debts effort
    ```bash
    flutter pub get
 3. **Firebase Setup:**
-   Create a Firebase project at Firebase Console
+   - Create a Firebase project at Firebase Console
 
-  Enable Authentication (Email/Password & Google)
+  - Enable Authentication (Email/Password & Google)
 
-  Create Firestore Database
+  - Create Firestore Database
 
-  Add google-services.json (Android) and GoogleService-Info.plist (iOS)
+  - Add google-services.json (Android) and GoogleService-Info.plist (iOS)
+    
 4. **Cloudinary Setup:**
-  Sign up at Cloudinary
+  - Sign up at Cloudinary
 
-  Get your cloud name, API key, and API secret
+  - Get your cloud name, API key, and API secret
 
-  Configure in your app’s .env or constants
+  - Configure in your app’s .env or constants
+    
 5. **Gemini API Setup:**
-  Get API key from Google AI Studio
+  - Get API key from Google AI Studio
 
-  Add your Gemini key in your app’s config file
+  - Add your Gemini key in your app’s config file
+    
 6. **Run the App::**
 ```bash
    flutter run
