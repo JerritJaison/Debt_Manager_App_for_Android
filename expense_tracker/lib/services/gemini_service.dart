@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class GeminiService {
-  final String _apiKey = 'AIzaSyBI0We1YJCfqYOXV_jukqu2CEVG98m2f2I'; // Replace with your real key
+  final String _apiKey = ''; // Replace with your real key
   final String _url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
   Future<String> suggestCategory(String description) async {
